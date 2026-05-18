@@ -55,12 +55,12 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: "DUT Footer"
-  ua[1]: "DUT Header"
-  ua[2]: "DUT Force"
-  ua[3]: "DUT Sense"
-  ua[4]: "DUT Gate"
-  ua[5]: "Output"
+  ua[0]: "Output"
+  ua[1]: "DUT_Gate"
+  ua[2]: "DUT_Footer"
+  ua[3]: "DUT_Header"
+  ua[4]: "Drain_Sense"
+  ua[5]: "Drain_Force"
 
 # Do not change!
 yaml_version: 6

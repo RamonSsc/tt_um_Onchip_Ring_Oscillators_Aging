@@ -20,4 +20,46 @@ module tt_um_RO_aging(
     input  wire       rst_n     // reset_n - low to reset
 );
 
+    Ro_Aging Ro_Aging(
+        .VDPWR(VDPWR),
+        .VGND(VGND),
+        .Output(ua[0]),
+        .DUT_Gate(ua[1]),
+        .DUT_Footer(ua[2]),
+        .DUT_Header(ua[3]),
+        .Drain_Sense(ua[4]),
+        .Drain_Force(ua[5])
+    );
+
+
+    // outputs 
+    assign uo_out[0] = VGND;
+    assign uo_out[1] = VGND;
+    assign uo_out[2] = VGND;
+    assign uo_out[3] = VGND;
+    assign uo_out[4] = VGND;
+    assign uo_out[5] = VGND;
+    assign uo_out[6] = VGND;
+    assign uo_out[7] = VGND;
+
+    // ties for the output enables
+    assign uio_out[0] = VGND;
+    assign uio_out[1] = VGND;
+    assign uio_out[2] = VGND;
+    assign uio_out[3] = VGND;
+    assign uio_out[4] = VGND;
+    assign uio_out[5] = VGND;
+    assign uio_out[6] = VGND;
+    assign uio_out[7] = VGND;
+
+    assign uio_oe[0] = VGND;
+    assign uio_oe[1] = VGND;
+    assign uio_oe[2] = VGND;
+    assign uio_oe[3] = VGND;
+    assign uio_oe[4] = VGND;
+    assign uio_oe[5] = VGND;
+    assign uio_oe[6] = VGND;
+    assign uio_oe[7] = VGND;
+
+
 endmodule
