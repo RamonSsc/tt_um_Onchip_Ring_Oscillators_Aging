@@ -1,0 +1,494 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO tt_um_RO_aging
+  CLASS BLOCK ;
+  FOREIGN tt_um_RO_aging ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 161.000 BY 225.760 ;
+  PIN VDD
+    ANTENNAGATEAREA 3.465000 ;
+    ANTENNADIFFAREA 256.360382 ;
+    PORT
+      LAYER met2 ;
+        RECT 98.820 77.910 131.025 78.550 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 131.025 77.910 133.815 78.550 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 22.080 77.910 54.285 78.550 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 54.285 77.910 57.075 78.550 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 59.845 77.910 98.820 78.550 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 125.740 78.550 131.060 79.190 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 114.840 78.550 120.160 79.190 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 103.940 78.550 109.260 79.190 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 93.040 78.550 98.360 79.190 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 76.710 78.550 86.910 79.190 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 71.240 78.550 76.560 79.190 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 60.340 78.550 65.660 79.190 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 49.440 78.550 54.760 79.190 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 27.640 78.550 32.960 79.190 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 38.540 78.550 43.860 79.190 ;
+    END
+  END VDD
+  PIN GND
+    ANTENNADIFFAREA 67.725800 ;
+    PORT
+      LAYER met2 ;
+        RECT 131.025 65.600 133.815 66.240 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 57.055 65.600 59.845 66.240 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 59.845 65.600 98.820 66.240 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 125.740 90.860 131.060 91.500 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 114.840 90.860 120.160 91.500 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 103.940 90.860 109.260 91.500 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 93.040 90.860 98.360 91.500 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 82.140 90.860 87.460 91.500 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 71.240 90.860 76.560 91.500 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 60.340 90.860 65.660 91.500 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 49.440 90.860 54.760 91.500 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 27.640 90.860 32.960 91.500 ;
+    END
+    PORT
+      LAYER met2 ;
+        RECT 38.540 90.860 43.860 91.500 ;
+    END
+  END GND
+  PIN clk
+    PORT
+      LAYER met4 ;
+        RECT 143.830 224.760 144.130 225.760 ;
+    END
+  END clk
+  PIN ena
+    PORT
+      LAYER met4 ;
+        RECT 146.590 224.760 146.890 225.760 ;
+    END
+  END ena
+  PIN rst_n
+    PORT
+      LAYER met4 ;
+        RECT 141.070 224.760 141.370 225.760 ;
+    END
+  END rst_n
+  PIN ua[0]
+    PORT
+      LAYER met4 ;
+        RECT 151.810 0.000 152.710 1.000 ;
+    END
+  END ua[0]
+  PIN ua[1]
+    PORT
+      LAYER met4 ;
+        RECT 132.490 0.000 133.390 1.000 ;
+    END
+  END ua[1]
+  PIN ua[2]
+    PORT
+      LAYER met4 ;
+        RECT 113.170 0.000 114.070 1.000 ;
+    END
+  END ua[2]
+  PIN ua[3]
+    PORT
+      LAYER met4 ;
+        RECT 93.850 0.000 94.750 1.000 ;
+    END
+  END ua[3]
+  PIN ua[4]
+    PORT
+      LAYER met4 ;
+        RECT 74.530 0.000 75.430 1.000 ;
+    END
+  END ua[4]
+  PIN ua[5]
+    PORT
+      LAYER met4 ;
+        RECT 55.210 0.000 56.110 1.000 ;
+    END
+  END ua[5]
+  PIN ua[6]
+    PORT
+      LAYER met4 ;
+        RECT 35.890 0.000 36.790 1.000 ;
+    END
+  END ua[6]
+  PIN ua[7]
+    PORT
+      LAYER met4 ;
+        RECT 16.570 0.000 17.470 1.000 ;
+    END
+  END ua[7]
+  PIN ui_in[0]
+    PORT
+      LAYER met4 ;
+        RECT 138.310 224.760 138.610 225.760 ;
+    END
+  END ui_in[0]
+  PIN ui_in[1]
+    PORT
+      LAYER met4 ;
+        RECT 135.550 224.760 135.850 225.760 ;
+    END
+  END ui_in[1]
+  PIN ui_in[2]
+    PORT
+      LAYER met4 ;
+        RECT 132.790 224.760 133.090 225.760 ;
+    END
+  END ui_in[2]
+  PIN ui_in[3]
+    PORT
+      LAYER met4 ;
+        RECT 130.030 224.760 130.330 225.760 ;
+    END
+  END ui_in[3]
+  PIN ui_in[4]
+    PORT
+      LAYER met4 ;
+        RECT 127.270 224.760 127.570 225.760 ;
+    END
+  END ui_in[4]
+  PIN ui_in[5]
+    PORT
+      LAYER met4 ;
+        RECT 124.510 224.760 124.810 225.760 ;
+    END
+  END ui_in[5]
+  PIN ui_in[6]
+    PORT
+      LAYER met4 ;
+        RECT 121.750 224.760 122.050 225.760 ;
+    END
+  END ui_in[6]
+  PIN ui_in[7]
+    PORT
+      LAYER met4 ;
+        RECT 118.990 224.760 119.290 225.760 ;
+    END
+  END ui_in[7]
+  PIN uio_in[0]
+    PORT
+      LAYER met4 ;
+        RECT 116.230 224.760 116.530 225.760 ;
+    END
+  END uio_in[0]
+  PIN uio_in[1]
+    PORT
+      LAYER met4 ;
+        RECT 113.470 224.760 113.770 225.760 ;
+    END
+  END uio_in[1]
+  PIN uio_in[2]
+    PORT
+      LAYER met4 ;
+        RECT 110.710 224.760 111.010 225.760 ;
+    END
+  END uio_in[2]
+  PIN uio_in[3]
+    PORT
+      LAYER met4 ;
+        RECT 107.950 224.760 108.250 225.760 ;
+    END
+  END uio_in[3]
+  PIN uio_in[4]
+    PORT
+      LAYER met4 ;
+        RECT 105.190 224.760 105.490 225.760 ;
+    END
+  END uio_in[4]
+  PIN uio_in[5]
+    PORT
+      LAYER met4 ;
+        RECT 102.430 224.760 102.730 225.760 ;
+    END
+  END uio_in[5]
+  PIN uio_in[6]
+    PORT
+      LAYER met4 ;
+        RECT 99.670 224.760 99.970 225.760 ;
+    END
+  END uio_in[6]
+  PIN uio_in[7]
+    PORT
+      LAYER met4 ;
+        RECT 96.910 224.760 97.210 225.760 ;
+    END
+  END uio_in[7]
+  PIN uio_oe[0]
+    PORT
+      LAYER met4 ;
+        RECT 49.990 224.760 50.290 225.760 ;
+    END
+  END uio_oe[0]
+  PIN uio_oe[1]
+    PORT
+      LAYER met4 ;
+        RECT 47.230 224.760 47.530 225.760 ;
+    END
+  END uio_oe[1]
+  PIN uio_oe[2]
+    PORT
+      LAYER met4 ;
+        RECT 44.470 224.760 44.770 225.760 ;
+    END
+  END uio_oe[2]
+  PIN uio_oe[3]
+    PORT
+      LAYER met4 ;
+        RECT 41.710 224.760 42.010 225.760 ;
+    END
+  END uio_oe[3]
+  PIN uio_oe[4]
+    PORT
+      LAYER met4 ;
+        RECT 38.950 224.760 39.250 225.760 ;
+    END
+  END uio_oe[4]
+  PIN uio_oe[5]
+    PORT
+      LAYER met4 ;
+        RECT 36.190 224.760 36.490 225.760 ;
+    END
+  END uio_oe[5]
+  PIN uio_oe[6]
+    PORT
+      LAYER met4 ;
+        RECT 33.430 224.760 33.730 225.760 ;
+    END
+  END uio_oe[6]
+  PIN uio_oe[7]
+    PORT
+      LAYER met4 ;
+        RECT 30.670 224.760 30.970 225.760 ;
+    END
+  END uio_oe[7]
+  PIN uio_out[0]
+    PORT
+      LAYER met4 ;
+        RECT 72.070 224.760 72.370 225.760 ;
+    END
+  END uio_out[0]
+  PIN uio_out[1]
+    PORT
+      LAYER met4 ;
+        RECT 69.310 224.760 69.610 225.760 ;
+    END
+  END uio_out[1]
+  PIN uio_out[2]
+    PORT
+      LAYER met4 ;
+        RECT 66.550 224.760 66.850 225.760 ;
+    END
+  END uio_out[2]
+  PIN uio_out[3]
+    PORT
+      LAYER met4 ;
+        RECT 63.790 224.760 64.090 225.760 ;
+    END
+  END uio_out[3]
+  PIN uio_out[4]
+    PORT
+      LAYER met4 ;
+        RECT 61.030 224.760 61.330 225.760 ;
+    END
+  END uio_out[4]
+  PIN uio_out[5]
+    PORT
+      LAYER met4 ;
+        RECT 58.270 224.760 58.570 225.760 ;
+    END
+  END uio_out[5]
+  PIN uio_out[6]
+    PORT
+      LAYER met4 ;
+        RECT 55.510 224.760 55.810 225.760 ;
+    END
+  END uio_out[6]
+  PIN uio_out[7]
+    PORT
+      LAYER met4 ;
+        RECT 52.750 224.760 53.050 225.760 ;
+    END
+  END uio_out[7]
+  PIN uo_out[0]
+    PORT
+      LAYER met4 ;
+        RECT 94.150 224.760 94.450 225.760 ;
+    END
+  END uo_out[0]
+  PIN uo_out[1]
+    PORT
+      LAYER met4 ;
+        RECT 91.390 224.760 91.690 225.760 ;
+    END
+  END uo_out[1]
+  PIN uo_out[2]
+    PORT
+      LAYER met4 ;
+        RECT 88.630 224.760 88.930 225.760 ;
+    END
+  END uo_out[2]
+  PIN uo_out[3]
+    PORT
+      LAYER met4 ;
+        RECT 85.870 224.760 86.170 225.760 ;
+    END
+  END uo_out[3]
+  PIN uo_out[4]
+    PORT
+      LAYER met4 ;
+        RECT 83.110 224.760 83.410 225.760 ;
+    END
+  END uo_out[4]
+  PIN uo_out[5]
+    PORT
+      LAYER met4 ;
+        RECT 80.350 224.760 80.650 225.760 ;
+    END
+  END uo_out[5]
+  PIN uo_out[6]
+    PORT
+      LAYER met4 ;
+        RECT 77.590 224.760 77.890 225.760 ;
+    END
+  END uo_out[6]
+  PIN uo_out[7]
+    PORT
+      LAYER met4 ;
+        RECT 74.830 224.760 75.130 225.760 ;
+    END
+  END uo_out[7]
+  PIN VDPWR
+    USE POWER ;
+    PORT
+      LAYER met4 ;
+        RECT 1.000 5.000 3.000 220.760 ;
+    END
+  END VDPWR
+  PIN VGND
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 4.000 5.000 6.000 220.760 ;
+    END
+  END VGND
+  OBS
+      LAYER nwell ;
+        RECT 22.060 65.890 136.585 120.550 ;
+      LAYER li1 ;
+        RECT 21.280 65.600 136.585 120.370 ;
+      LAYER met1 ;
+        RECT 21.280 65.600 136.585 120.370 ;
+      LAYER met2 ;
+        RECT 21.280 91.780 137.365 119.595 ;
+        RECT 21.280 90.580 27.360 91.780 ;
+        RECT 33.240 90.580 38.260 91.780 ;
+        RECT 44.140 90.580 49.160 91.780 ;
+        RECT 55.040 90.580 60.060 91.780 ;
+        RECT 65.940 90.580 70.960 91.780 ;
+        RECT 76.840 90.580 81.860 91.780 ;
+        RECT 87.740 90.580 92.760 91.780 ;
+        RECT 98.640 90.580 103.660 91.780 ;
+        RECT 109.540 90.580 114.560 91.780 ;
+        RECT 120.440 90.580 125.460 91.780 ;
+        RECT 131.340 90.580 137.365 91.780 ;
+        RECT 21.280 79.470 137.365 90.580 ;
+        RECT 21.280 78.830 27.360 79.470 ;
+        RECT 33.240 78.830 38.260 79.470 ;
+        RECT 44.140 78.830 49.160 79.470 ;
+        RECT 55.040 78.830 60.060 79.470 ;
+        RECT 65.940 78.830 70.960 79.470 ;
+        RECT 87.190 78.830 92.760 79.470 ;
+        RECT 98.640 78.830 103.660 79.470 ;
+        RECT 109.540 78.830 114.560 79.470 ;
+        RECT 120.440 78.830 125.460 79.470 ;
+        RECT 131.340 78.830 137.365 79.470 ;
+        RECT 21.280 77.630 21.800 78.830 ;
+        RECT 57.355 77.630 59.565 78.830 ;
+        RECT 134.095 77.630 137.365 78.830 ;
+        RECT 21.280 66.520 137.365 77.630 ;
+        RECT 21.280 65.600 56.775 66.520 ;
+        RECT 99.100 65.600 130.745 66.520 ;
+        RECT 134.095 65.600 137.365 66.520 ;
+      LAYER met3 ;
+        RECT 21.280 63.700 137.365 90.260 ;
+      LAYER met4 ;
+        RECT 22.920 63.700 134.005 77.415 ;
+  END
+END tt_um_RO_aging
+END LIBRARY
+
