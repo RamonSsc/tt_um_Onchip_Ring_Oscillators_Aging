@@ -1,0 +1,1498 @@
+* Extracted by KLayout with SKY130 LVS runset on : 18/05/2026 05:55
+
+* cell tt_um_RO_aging
+* pin Drain_Sense,ua[5]
+* pin DUT_Gate,ua[1]
+* pin Drain_Force,ua[4]
+* pin DUT_Header,ua[3]
+* pin RON,ui_in[1]
+* pin RO,ui_in[0]
+* pin DUT_Footer,ua[2]
+* pin VDD,VDPWR
+* pin IN,OUT
+* pin A[3]
+* pin A[0]
+* pin A[1]
+* pin A[2]
+* pin A[6]
+* pin A[5]
+* pin A[4]
+* pin A[7]
+* pin OUT
+* pin A[8]
+* pin A[9]
+* pin A[10]
+* pin GND,VGND,uio_oe[0],uio_oe[1],uio_oe[2],uio_oe[3],uio_oe[4],uio_oe[5],uio_oe[6],uio_oe[7],uio_out[0],uio_out[1],uio_out[2],uio_out[3],uio_out[4],uio_out[5],uio_out[6],uio_out[7],uo_out[0],uo_out[1],uo_out[2],uo_out[3],uo_out[4],uo_out[5],uo_out[6],uo_out[7]
+.SUBCKT tt_um_RO_aging Drain_Sense|ua[5] DUT_Gate|ua[1] Drain_Force|ua[4]
++ DUT_Header|ua[3] RON|ui_in[1] RO|ui_in[0] DUT_Footer|ua[2] VDD|VDPWR IN|OUT
++ A[3] A[0] A[1] A[2] A[6] A[5] A[4] A[7] OUT A[8] A[9] A[10]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
+* device instance $1 r0 *1 43.09,96.48 sky130_fd_pr__pfet_01v8
+XM$1 VDD|VDPWR IN|OUT \$134 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $2 r0 *1 44.45,95.98 sky130_fd_pr__pfet_01v8
+XM$2 A[0] \$134 \$194 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $3 r0 *1 45.81,96.48 sky130_fd_pr__pfet_01v8
+XM$3 VDD|VDPWR \$194 \$177 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $4 r0 *1 47.17,96.48 sky130_fd_pr__pfet_01v8
+XM$4 VDD|VDPWR \$177 \$178 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $5 r0 *1 48.53,95.98 sky130_fd_pr__pfet_01v8
+XM$5 \$178 IN|OUT \$194 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $6 r0 *1 49.89,95.98 sky130_fd_pr__pfet_01v8
+XM$6 \$177 IN|OUT \$195 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $7 r0 *1 51.25,96.48 sky130_fd_pr__pfet_01v8
+XM$7 VDD|VDPWR \$195 \$179 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $8 r0 *1 52.61,96.48 sky130_fd_pr__pfet_01v8
+XM$8 VDD|VDPWR \$179 A[0] VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $9 r0 *1 53.97,95.98 sky130_fd_pr__pfet_01v8
+XM$9 A[0] \$134 \$195 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $10 r0 *1 55.33,96.48 sky130_fd_pr__pfet_01v8
+XM$10 VDD|VDPWR A[0] \$180 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $11 r0 *1 56.69,96.48 sky130_fd_pr__pfet_01v8
+XM$11 VDD|VDPWR A[0] \$145 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $12 r0 *1 58.05,95.98 sky130_fd_pr__pfet_01v8
+XM$12 A[1] \$145 \$196 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $13 r0 *1 59.41,96.48 sky130_fd_pr__pfet_01v8
+XM$13 VDD|VDPWR \$196 \$181 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $14 r0 *1 60.77,96.48 sky130_fd_pr__pfet_01v8
+XM$14 VDD|VDPWR \$181 \$182 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $15 r0 *1 62.13,95.98 sky130_fd_pr__pfet_01v8
+XM$15 \$182 A[0] \$196 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $16 r0 *1 63.49,95.98 sky130_fd_pr__pfet_01v8
+XM$16 \$181 A[0] \$197 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $17 r0 *1 64.85,96.48 sky130_fd_pr__pfet_01v8
+XM$17 VDD|VDPWR \$197 \$183 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $18 r0 *1 66.21,96.48 sky130_fd_pr__pfet_01v8
+XM$18 VDD|VDPWR \$183 A[1] VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $19 r0 *1 67.57,95.98 sky130_fd_pr__pfet_01v8
+XM$19 A[1] \$145 \$197 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $20 r0 *1 68.93,96.48 sky130_fd_pr__pfet_01v8
+XM$20 VDD|VDPWR A[1] \$184 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $21 r0 *1 70.29,96.48 sky130_fd_pr__pfet_01v8
+XM$21 VDD|VDPWR A[1] \$156 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $22 r0 *1 71.65,95.98 sky130_fd_pr__pfet_01v8
+XM$22 A[2] \$156 \$198 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $23 r0 *1 73.01,96.48 sky130_fd_pr__pfet_01v8
+XM$23 VDD|VDPWR \$198 \$185 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $24 r0 *1 74.37,96.48 sky130_fd_pr__pfet_01v8
+XM$24 VDD|VDPWR \$185 \$186 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $25 r0 *1 75.73,95.98 sky130_fd_pr__pfet_01v8
+XM$25 \$186 A[1] \$198 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $26 r0 *1 77.09,95.98 sky130_fd_pr__pfet_01v8
+XM$26 \$185 A[1] \$199 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $27 r0 *1 78.45,96.48 sky130_fd_pr__pfet_01v8
+XM$27 VDD|VDPWR \$199 \$187 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $28 r0 *1 79.81,96.48 sky130_fd_pr__pfet_01v8
+XM$28 VDD|VDPWR \$187 A[2] VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $29 r0 *1 81.17,95.98 sky130_fd_pr__pfet_01v8
+XM$29 A[2] \$156 \$199 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $30 r0 *1 82.53,96.48 sky130_fd_pr__pfet_01v8
+XM$30 VDD|VDPWR A[2] \$188 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $31 r0 *1 83.89,96.48 sky130_fd_pr__pfet_01v8
+XM$31 VDD|VDPWR A[2] \$167 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $32 r0 *1 85.25,95.98 sky130_fd_pr__pfet_01v8
+XM$32 A[3] \$167 \$200 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $33 r0 *1 86.61,96.48 sky130_fd_pr__pfet_01v8
+XM$33 VDD|VDPWR \$200 \$189 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $34 r0 *1 87.97,96.48 sky130_fd_pr__pfet_01v8
+XM$34 VDD|VDPWR \$189 \$190 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $35 r0 *1 89.33,95.98 sky130_fd_pr__pfet_01v8
+XM$35 \$190 A[2] \$200 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $36 r0 *1 90.69,95.98 sky130_fd_pr__pfet_01v8
+XM$36 \$189 A[2] \$201 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $37 r0 *1 92.05,96.48 sky130_fd_pr__pfet_01v8
+XM$37 VDD|VDPWR \$201 \$191 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $38 r0 *1 93.41,96.48 sky130_fd_pr__pfet_01v8
+XM$38 VDD|VDPWR \$191 A[3] VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $39 r0 *1 94.77,95.98 sky130_fd_pr__pfet_01v8
+XM$39 A[3] \$167 \$201 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $40 r0 *1 96.13,96.48 sky130_fd_pr__pfet_01v8
+XM$40 VDD|VDPWR A[3] \$193 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $41 r0 *1 43.09,100.27 sky130_fd_pr__pfet_01v8
+XM$41 \$209 A[7] VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $42 r0 *1 44.45,100.77 sky130_fd_pr__pfet_01v8
+XM$42 \$233 \$210 A[7] VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $43 r0 *1 45.81,100.27 sky130_fd_pr__pfet_01v8
+XM$43 A[7] \$211 VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $44 r0 *1 47.17,100.27 sky130_fd_pr__pfet_01v8
+XM$44 \$211 \$233 VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $45 r0 *1 48.53,100.77 sky130_fd_pr__pfet_01v8
+XM$45 \$233 A[6] \$228 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $46 r0 *1 49.89,100.77 sky130_fd_pr__pfet_01v8
+XM$46 \$234 A[6] \$213 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $47 r0 *1 51.25,100.27 sky130_fd_pr__pfet_01v8
+XM$47 \$213 \$228 VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $48 r0 *1 52.61,100.27 sky130_fd_pr__pfet_01v8
+XM$48 \$228 \$234 VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $49 r0 *1 53.97,100.77 sky130_fd_pr__pfet_01v8
+XM$49 \$234 \$210 A[7] VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $50 r0 *1 55.33,100.27 sky130_fd_pr__pfet_01v8
+XM$50 \$210 A[6] VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $51 r0 *1 56.69,100.27 sky130_fd_pr__pfet_01v8
+XM$51 \$214 A[6] VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $52 r0 *1 58.05,100.77 sky130_fd_pr__pfet_01v8
+XM$52 \$235 \$215 A[6] VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $53 r0 *1 59.41,100.27 sky130_fd_pr__pfet_01v8
+XM$53 A[6] \$216 VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $54 r0 *1 60.77,100.27 sky130_fd_pr__pfet_01v8
+XM$54 \$216 \$235 VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $55 r0 *1 62.13,100.77 sky130_fd_pr__pfet_01v8
+XM$55 \$235 A[5] \$229 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $56 r0 *1 63.49,100.77 sky130_fd_pr__pfet_01v8
+XM$56 \$236 A[5] \$218 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $57 r0 *1 64.85,100.27 sky130_fd_pr__pfet_01v8
+XM$57 \$218 \$229 VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $58 r0 *1 66.21,100.27 sky130_fd_pr__pfet_01v8
+XM$58 \$229 \$236 VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $59 r0 *1 67.57,100.77 sky130_fd_pr__pfet_01v8
+XM$59 \$236 \$215 A[6] VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $60 r0 *1 68.93,100.27 sky130_fd_pr__pfet_01v8
+XM$60 \$215 A[5] VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $61 r0 *1 70.29,100.27 sky130_fd_pr__pfet_01v8
+XM$61 \$219 A[5] VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $62 r0 *1 71.65,100.77 sky130_fd_pr__pfet_01v8
+XM$62 \$237 \$220 A[5] VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $63 r0 *1 73.01,100.27 sky130_fd_pr__pfet_01v8
+XM$63 A[5] \$221 VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $64 r0 *1 74.37,100.27 sky130_fd_pr__pfet_01v8
+XM$64 \$221 \$237 VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $65 r0 *1 75.73,100.77 sky130_fd_pr__pfet_01v8
+XM$65 \$237 A[4] \$230 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $66 r0 *1 77.09,100.77 sky130_fd_pr__pfet_01v8
+XM$66 \$238 A[4] \$223 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $67 r0 *1 78.45,100.27 sky130_fd_pr__pfet_01v8
+XM$67 \$223 \$230 VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $68 r0 *1 79.81,100.27 sky130_fd_pr__pfet_01v8
+XM$68 \$230 \$238 VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $69 r0 *1 81.17,100.77 sky130_fd_pr__pfet_01v8
+XM$69 \$238 \$220 A[5] VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $70 r0 *1 82.53,100.27 sky130_fd_pr__pfet_01v8
+XM$70 \$220 A[4] VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $71 r0 *1 83.89,100.27 sky130_fd_pr__pfet_01v8
+XM$71 \$224 A[4] VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $72 r0 *1 85.25,100.77 sky130_fd_pr__pfet_01v8
+XM$72 \$239 \$225 A[4] VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $73 r0 *1 86.61,100.27 sky130_fd_pr__pfet_01v8
+XM$73 A[4] \$226 VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $74 r0 *1 87.97,100.27 sky130_fd_pr__pfet_01v8
+XM$74 \$226 \$239 VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $75 r0 *1 89.33,100.77 sky130_fd_pr__pfet_01v8
+XM$75 \$239 A[3] \$231 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $76 r0 *1 90.69,100.77 sky130_fd_pr__pfet_01v8
+XM$76 \$240 A[3] \$227 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $77 r0 *1 92.05,100.27 sky130_fd_pr__pfet_01v8
+XM$77 \$227 \$231 VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $78 r0 *1 93.41,100.27 sky130_fd_pr__pfet_01v8
+XM$78 \$231 \$240 VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $79 r0 *1 94.77,100.77 sky130_fd_pr__pfet_01v8
+XM$79 \$240 \$225 A[4] VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $80 r0 *1 96.13,100.27 sky130_fd_pr__pfet_01v8
+XM$80 \$225 A[3] VDD|VDPWR VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $81 r0 *1 43.09,108.62 sky130_fd_pr__pfet_01v8
+XM$81 VDD|VDPWR A[7] \$281 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $82 r0 *1 44.45,108.12 sky130_fd_pr__pfet_01v8
+XM$82 A[8] \$281 \$302 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $83 r0 *1 45.81,108.62 sky130_fd_pr__pfet_01v8
+XM$83 VDD|VDPWR \$302 \$285 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $84 r0 *1 47.17,108.62 sky130_fd_pr__pfet_01v8
+XM$84 VDD|VDPWR \$285 \$286 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $85 r0 *1 48.53,108.12 sky130_fd_pr__pfet_01v8
+XM$85 \$286 A[7] \$302 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $86 r0 *1 49.89,108.12 sky130_fd_pr__pfet_01v8
+XM$86 \$285 A[7] \$303 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $87 r0 *1 51.25,108.62 sky130_fd_pr__pfet_01v8
+XM$87 VDD|VDPWR \$303 \$287 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $88 r0 *1 52.61,108.62 sky130_fd_pr__pfet_01v8
+XM$88 VDD|VDPWR \$287 A[8] VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $89 r0 *1 53.97,108.12 sky130_fd_pr__pfet_01v8
+XM$89 A[8] \$281 \$303 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $90 r0 *1 55.33,108.62 sky130_fd_pr__pfet_01v8
+XM$90 VDD|VDPWR A[8] \$288 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $91 r0 *1 56.69,108.62 sky130_fd_pr__pfet_01v8
+XM$91 VDD|VDPWR A[8] \$282 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $92 r0 *1 58.05,108.12 sky130_fd_pr__pfet_01v8
+XM$92 A[9] \$282 \$304 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $93 r0 *1 59.41,108.62 sky130_fd_pr__pfet_01v8
+XM$93 VDD|VDPWR \$304 \$289 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $94 r0 *1 60.77,108.62 sky130_fd_pr__pfet_01v8
+XM$94 VDD|VDPWR \$289 \$290 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $95 r0 *1 62.13,108.12 sky130_fd_pr__pfet_01v8
+XM$95 \$290 A[8] \$304 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $96 r0 *1 63.49,108.12 sky130_fd_pr__pfet_01v8
+XM$96 \$289 A[8] \$305 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $97 r0 *1 64.85,108.62 sky130_fd_pr__pfet_01v8
+XM$97 VDD|VDPWR \$305 \$291 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $98 r0 *1 66.21,108.62 sky130_fd_pr__pfet_01v8
+XM$98 VDD|VDPWR \$291 A[9] VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $99 r0 *1 67.57,108.12 sky130_fd_pr__pfet_01v8
+XM$99 A[9] \$282 \$305 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $100 r0 *1 68.93,108.62 sky130_fd_pr__pfet_01v8
+XM$100 VDD|VDPWR A[9] \$292 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $101 r0 *1 70.29,108.62 sky130_fd_pr__pfet_01v8
+XM$101 VDD|VDPWR A[9] \$283 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $102 r0 *1 71.65,108.12 sky130_fd_pr__pfet_01v8
+XM$102 A[10] \$283 \$306 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $103 r0 *1 73.01,108.62 sky130_fd_pr__pfet_01v8
+XM$103 VDD|VDPWR \$306 \$293 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $104 r0 *1 74.37,108.62 sky130_fd_pr__pfet_01v8
+XM$104 VDD|VDPWR \$293 \$294 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $105 r0 *1 75.73,108.12 sky130_fd_pr__pfet_01v8
+XM$105 \$294 A[9] \$306 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $106 r0 *1 77.09,108.12 sky130_fd_pr__pfet_01v8
+XM$106 \$293 A[9] \$307 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $107 r0 *1 78.45,108.62 sky130_fd_pr__pfet_01v8
+XM$107 VDD|VDPWR \$307 \$295 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $108 r0 *1 79.81,108.62 sky130_fd_pr__pfet_01v8
+XM$108 VDD|VDPWR \$295 A[10] VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $109 r0 *1 81.17,108.12 sky130_fd_pr__pfet_01v8
+XM$109 A[10] \$283 \$307 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $110 r0 *1 82.53,108.62 sky130_fd_pr__pfet_01v8
+XM$110 VDD|VDPWR A[10] \$296 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $111 r0 *1 83.89,108.62 sky130_fd_pr__pfet_01v8
+XM$111 VDD|VDPWR A[10] \$284 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $112 r0 *1 85.25,108.12 sky130_fd_pr__pfet_01v8
+XM$112 OUT \$284 \$308 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $113 r0 *1 86.61,108.62 sky130_fd_pr__pfet_01v8
+XM$113 VDD|VDPWR \$308 \$297 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $114 r0 *1 87.97,108.62 sky130_fd_pr__pfet_01v8
+XM$114 VDD|VDPWR \$297 \$298 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $115 r0 *1 89.33,108.12 sky130_fd_pr__pfet_01v8
+XM$115 \$298 A[10] \$308 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $116 r0 *1 90.69,108.12 sky130_fd_pr__pfet_01v8
+XM$116 \$297 A[10] \$309 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $117 r0 *1 92.05,108.62 sky130_fd_pr__pfet_01v8
+XM$117 VDD|VDPWR \$309 \$299 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000
++ W=2000000 AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $118 r0 *1 93.41,108.62 sky130_fd_pr__pfet_01v8
+XM$118 VDD|VDPWR \$299 OUT VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $119 r0 *1 94.77,108.12 sky130_fd_pr__pfet_01v8
+XM$119 OUT \$284 \$309 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=1000000
++ AS=300000000000 AD=300000000000 PS=2600000 PD=2600000
+* device instance $120 r0 *1 96.13,108.62 sky130_fd_pr__pfet_01v8
+XM$120 VDD|VDPWR OUT \$301 VDD|VDPWR sky130_fd_pr__pfet_01v8 L=150000 W=2000000
++ AS=600000000000 AD=600000000000 PS=4600000 PD=4600000
+* device instance $121 r0 *1 33.175,75.11 sky130_fd_pr__pfet_01v8_lvt
+XM$121 VDD|VDPWR RON|ui_in[1] \$33 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt
++ L=350000 W=190000000 AS=2.92125e+13 AD=2.92125e+13 PS=207050000 PD=207050000
+* device instance $161 r0 *1 60.085,75.11 sky130_fd_pr__pfet_01v8_lvt
+XM$161 \$33 \$25 \$27 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000 W=19000000
++ AS=4.275e+12 AD=4.275e+12 PS=30300000 PD=30300000
+* device instance $165 r0 *1 72.15,75.11 sky130_fd_pr__pfet_01v8_lvt
+XM$165 VDD|VDPWR DUT_Footer|ua[2] \$34 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt
++ L=350000 W=190000000 AS=2.92125e+13 AD=2.92125e+13 PS=207050000 PD=207050000
+* device instance $205 r0 *1 99.06,75.11 sky130_fd_pr__pfet_01v8_lvt
+XM$205 \$34 \$26 \$25 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000 W=19000000
++ AS=4.275e+12 AD=4.275e+12 PS=30300000 PD=30300000
+* device instance $209 r0 *1 109.915,75.11 sky130_fd_pr__pfet_01v8_lvt
+XM$209 VDD|VDPWR RON|ui_in[1] \$35 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt
++ L=350000 W=190000000 AS=2.92125e+13 AD=2.92125e+13 PS=207050000 PD=207050000
+* device instance $249 r0 *1 136.825,75.11 sky130_fd_pr__pfet_01v8_lvt
+XM$249 \$35 \$100 \$26 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=19000000 AS=4.275e+12 AD=4.275e+12 PS=30300000 PD=30300000
+* device instance $253 r0 *1 27.635,76.92 sky130_fd_pr__pfet_01v8_lvt
+XM$253 \$23 VDD|VDPWR \$27 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $254 r0 *1 30.405,76.92 sky130_fd_pr__pfet_01v8_lvt
+XM$254
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ VDD|VDPWR \$27 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000 W=450000
++ AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $255 r0 *1 33.155,81.99 sky130_fd_pr__pfet_01v8_lvt
+XM$255 VDD|VDPWR \$27 IN|OUT VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=19000000 AS=4.275e+12 AD=4.275e+12 PS=30300000 PD=30300000
+* device instance $259 r0 *1 38.48,80.18 sky130_fd_pr__pfet_01v8_lvt
+XM$259 IN|OUT VDD|VDPWR \$75 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $260 r0 *1 41.27,80.18 sky130_fd_pr__pfet_01v8_lvt
+XM$260 IN|OUT VDD|VDPWR \$76 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $261 r0 *1 44.055,81.99 sky130_fd_pr__pfet_01v8_lvt
+XM$261 VDD|VDPWR IN|OUT \$65 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=19000000 AS=4.275e+12 AD=4.275e+12 PS=30300000 PD=30300000
+* device instance $265 r0 *1 49.38,80.18 sky130_fd_pr__pfet_01v8_lvt
+XM$265 \$65 VDD|VDPWR \$77 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $266 r0 *1 52.17,80.18 sky130_fd_pr__pfet_01v8_lvt
+XM$266 \$65 VDD|VDPWR \$78 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $267 r0 *1 54.955,81.99 sky130_fd_pr__pfet_01v8_lvt
+XM$267 VDD|VDPWR \$65 \$79 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=19000000 AS=4.275e+12 AD=4.275e+12 PS=30300000 PD=30300000
+* device instance $271 r0 *1 60.28,80.18 sky130_fd_pr__pfet_01v8_lvt
+XM$271 \$79 VDD|VDPWR \$80 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $272 r0 *1 63.07,80.18 sky130_fd_pr__pfet_01v8_lvt
+XM$272 \$79 VDD|VDPWR \$81 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $273 r0 *1 65.855,81.99 sky130_fd_pr__pfet_01v8_lvt
+XM$273 VDD|VDPWR \$79 \$82 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=19000000 AS=4.275e+12 AD=4.275e+12 PS=30300000 PD=30300000
+* device instance $275 r0 *1 66.61,76.195 sky130_fd_pr__pfet_01v8_lvt
+XM$275 \$25 RO|ui_in[0] Drain_Sense|ua[5] VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt
++ L=350000 W=1900000 AS=570000000000 AD=570000000000 PS=4400000 PD=4400000
+* device instance $278 r0 *1 69.38,76.195 sky130_fd_pr__pfet_01v8_lvt
+XM$278 \$25 RO|ui_in[0] Drain_Force|ua[4] VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt
++ L=350000 W=1900000 AS=570000000000 AD=570000000000 PS=4400000 PD=4400000
+* device instance $279 r0 *1 71.18,80.18 sky130_fd_pr__pfet_01v8_lvt
+XM$279 \$82 VDD|VDPWR \$83 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $280 r0 *1 73.97,80.18 sky130_fd_pr__pfet_01v8_lvt
+XM$280 \$82 VDD|VDPWR \$84 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $281 r0 *1 76.755,81.99 sky130_fd_pr__pfet_01v8_lvt
+XM$281 VDD|VDPWR \$82 \$85 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=19000000 AS=4.275e+12 AD=4.275e+12 PS=30300000 PD=30300000
+* device instance $285 r0 *1 82.08,80.18 sky130_fd_pr__pfet_01v8_lvt
+XM$285 \$85 VDD|VDPWR \$86 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $286 r0 *1 84.87,80.18 sky130_fd_pr__pfet_01v8_lvt
+XM$286 \$85 VDD|VDPWR \$87 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $287 r0 *1 87.655,81.99 sky130_fd_pr__pfet_01v8_lvt
+XM$287 VDD|VDPWR \$85 \$88 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=19000000 AS=4.275e+12 AD=4.275e+12 PS=30300000 PD=30300000
+* device instance $291 r0 *1 92.98,80.18 sky130_fd_pr__pfet_01v8_lvt
+XM$291 \$88 VDD|VDPWR \$89 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $292 r0 *1 95.77,80.18 sky130_fd_pr__pfet_01v8_lvt
+XM$292 \$88 VDD|VDPWR \$90 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $293 r0 *1 98.555,81.99 sky130_fd_pr__pfet_01v8_lvt
+XM$293 VDD|VDPWR \$88 \$91 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=19000000 AS=4.275e+12 AD=4.275e+12 PS=30300000 PD=30300000
+* device instance $297 r0 *1 103.88,80.18 sky130_fd_pr__pfet_01v8_lvt
+XM$297 \$91 VDD|VDPWR \$92 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $298 r0 *1 104.375,76.92 sky130_fd_pr__pfet_01v8_lvt
+XM$298 \$24 RO|ui_in[0] \$26 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $299 r0 *1 106.67,80.18 sky130_fd_pr__pfet_01v8_lvt
+XM$299 \$91 VDD|VDPWR \$93 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $300 r0 *1 107.145,76.92 sky130_fd_pr__pfet_01v8_lvt
+XM$300 DUT_Gate|ua[1] RO|ui_in[0] \$26 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt
++ L=350000 W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $301 r0 *1 109.455,81.99 sky130_fd_pr__pfet_01v8_lvt
+XM$301 VDD|VDPWR \$91 \$94 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=19000000 AS=4.275e+12 AD=4.275e+12 PS=30300000 PD=30300000
+* device instance $305 r0 *1 114.78,80.18 sky130_fd_pr__pfet_01v8_lvt
+XM$305 \$94 VDD|VDPWR \$95 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $306 r0 *1 117.57,80.18 sky130_fd_pr__pfet_01v8_lvt
+XM$306 \$94 VDD|VDPWR \$96 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $307 r0 *1 120.355,81.99 sky130_fd_pr__pfet_01v8_lvt
+XM$307 VDD|VDPWR \$94 \$97 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=19000000 AS=4.275e+12 AD=4.275e+12 PS=30300000 PD=30300000
+* device instance $311 r0 *1 125.68,80.18 sky130_fd_pr__pfet_01v8_lvt
+XM$311 \$97 VDD|VDPWR \$98 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $312 r0 *1 128.47,80.18 sky130_fd_pr__pfet_01v8_lvt
+XM$312 \$97 VDD|VDPWR \$99 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $313 r0 *1 131.255,81.99 sky130_fd_pr__pfet_01v8_lvt
+XM$313 VDD|VDPWR \$97 \$100 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=19000000 AS=4.275e+12 AD=4.275e+12 PS=30300000 PD=30300000
+* device instance $317 r0 *1 136.58,80.18 sky130_fd_pr__pfet_01v8_lvt
+XM$317 \$100 VDD|VDPWR \$101 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $318 r0 *1 139.37,80.18 sky130_fd_pr__pfet_01v8_lvt
+XM$318 \$100 VDD|VDPWR \$102 VDD|VDPWR sky130_fd_pr__pfet_01v8_lvt L=350000
++ W=450000 AS=135000000000 AD=135000000000 PS=1500000 PD=1500000
+* device instance $319 r0 *1 43.09,93.72 sky130_fd_pr__nfet_01v8
+XM$319
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ IN|OUT \$134
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $320 r0 *1 45.81,93.72 sky130_fd_pr__nfet_01v8
+XM$320
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$194 \$177
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $321 r0 *1 47.17,93.72 sky130_fd_pr__nfet_01v8
+XM$321
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$177 \$178
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $322 r0 *1 51.25,93.72 sky130_fd_pr__nfet_01v8
+XM$322
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$195 \$179
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $323 r0 *1 52.61,93.72 sky130_fd_pr__nfet_01v8
+XM$323
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$179 A[0]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $324 r0 *1 55.33,93.72 sky130_fd_pr__nfet_01v8
+XM$324
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ A[0] \$180
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $325 r0 *1 56.69,93.72 sky130_fd_pr__nfet_01v8
+XM$325
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ A[0] \$145
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $326 r0 *1 59.41,93.72 sky130_fd_pr__nfet_01v8
+XM$326
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$196 \$181
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $327 r0 *1 60.77,93.72 sky130_fd_pr__nfet_01v8
+XM$327
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$181 \$182
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $328 r0 *1 64.85,93.72 sky130_fd_pr__nfet_01v8
+XM$328
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$197 \$183
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $329 r0 *1 66.21,93.72 sky130_fd_pr__nfet_01v8
+XM$329
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$183 A[1]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $330 r0 *1 68.93,93.72 sky130_fd_pr__nfet_01v8
+XM$330
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ A[1] \$184
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $331 r0 *1 70.29,93.72 sky130_fd_pr__nfet_01v8
+XM$331
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ A[1] \$156
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $332 r0 *1 73.01,93.72 sky130_fd_pr__nfet_01v8
+XM$332
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$198 \$185
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $333 r0 *1 74.37,93.72 sky130_fd_pr__nfet_01v8
+XM$333
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$185 \$186
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $334 r0 *1 78.45,93.72 sky130_fd_pr__nfet_01v8
+XM$334
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$199 \$187
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $335 r0 *1 79.81,93.72 sky130_fd_pr__nfet_01v8
+XM$335
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$187 A[2]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $336 r0 *1 82.53,93.72 sky130_fd_pr__nfet_01v8
+XM$336
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ A[2] \$188
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $337 r0 *1 83.89,93.72 sky130_fd_pr__nfet_01v8
+XM$337
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ A[2] \$167
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $338 r0 *1 86.61,93.72 sky130_fd_pr__nfet_01v8
+XM$338
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$200 \$189
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $339 r0 *1 87.97,93.72 sky130_fd_pr__nfet_01v8
+XM$339
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$189 \$190
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $340 r0 *1 92.05,93.72 sky130_fd_pr__nfet_01v8
+XM$340
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$201 \$191
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $341 r0 *1 93.41,93.72 sky130_fd_pr__nfet_01v8
+XM$341
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$191 A[3]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $342 r0 *1 96.13,93.72 sky130_fd_pr__nfet_01v8
+XM$342
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ A[3] \$193
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $343 r0 *1 43.09,103.03 sky130_fd_pr__nfet_01v8
+XM$343 \$209 A[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $344 r0 *1 44.45,93.895 sky130_fd_pr__nfet_01v8
+XM$344 A[0] IN|OUT \$194
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $345 r0 *1 44.45,102.855 sky130_fd_pr__nfet_01v8
+XM$345 \$233 A[6] A[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $346 r0 *1 45.81,103.03 sky130_fd_pr__nfet_01v8
+XM$346 A[7] \$211
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $347 r0 *1 47.17,103.03 sky130_fd_pr__nfet_01v8
+XM$347 \$211 \$233
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $348 r0 *1 48.53,93.895 sky130_fd_pr__nfet_01v8
+XM$348 \$178 \$134 \$194
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $349 r0 *1 48.53,102.855 sky130_fd_pr__nfet_01v8
+XM$349 \$233 \$210 \$228
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $350 r0 *1 49.89,93.895 sky130_fd_pr__nfet_01v8
+XM$350 \$177 \$134 \$195
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $351 r0 *1 49.89,102.855 sky130_fd_pr__nfet_01v8
+XM$351 \$234 \$210 \$213
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $352 r0 *1 51.25,103.03 sky130_fd_pr__nfet_01v8
+XM$352 \$213 \$228
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $353 r0 *1 52.61,103.03 sky130_fd_pr__nfet_01v8
+XM$353 \$228 \$234
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $354 r0 *1 53.97,102.855 sky130_fd_pr__nfet_01v8
+XM$354 \$234 A[6] A[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $355 r0 *1 53.97,93.895 sky130_fd_pr__nfet_01v8
+XM$355 A[0] IN|OUT \$195
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $356 r0 *1 55.33,103.03 sky130_fd_pr__nfet_01v8
+XM$356 \$210 A[6]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $357 r0 *1 56.69,103.03 sky130_fd_pr__nfet_01v8
+XM$357 \$214 A[6]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $358 r0 *1 58.05,102.855 sky130_fd_pr__nfet_01v8
+XM$358 \$235 A[5] A[6]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $359 r0 *1 58.05,93.895 sky130_fd_pr__nfet_01v8
+XM$359 A[1] A[0] \$196
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $360 r0 *1 59.41,103.03 sky130_fd_pr__nfet_01v8
+XM$360 A[6] \$216
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $361 r0 *1 60.77,103.03 sky130_fd_pr__nfet_01v8
+XM$361 \$216 \$235
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $362 r0 *1 62.13,93.895 sky130_fd_pr__nfet_01v8
+XM$362 \$182 \$145 \$196
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $363 r0 *1 62.13,102.855 sky130_fd_pr__nfet_01v8
+XM$363 \$235 \$215 \$229
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $364 r0 *1 63.49,93.895 sky130_fd_pr__nfet_01v8
+XM$364 \$181 \$145 \$197
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $365 r0 *1 63.49,102.855 sky130_fd_pr__nfet_01v8
+XM$365 \$236 \$215 \$218
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $366 r0 *1 64.85,103.03 sky130_fd_pr__nfet_01v8
+XM$366 \$218 \$229
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $367 r0 *1 66.21,103.03 sky130_fd_pr__nfet_01v8
+XM$367 \$229 \$236
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $368 r0 *1 67.57,102.855 sky130_fd_pr__nfet_01v8
+XM$368 \$236 A[5] A[6]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $369 r0 *1 67.57,93.895 sky130_fd_pr__nfet_01v8
+XM$369 A[1] A[0] \$197
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $370 r0 *1 68.93,103.03 sky130_fd_pr__nfet_01v8
+XM$370 \$215 A[5]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $371 r0 *1 70.29,103.03 sky130_fd_pr__nfet_01v8
+XM$371 \$219 A[5]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $372 r0 *1 71.65,93.895 sky130_fd_pr__nfet_01v8
+XM$372 A[2] A[1] \$198
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $373 r0 *1 71.65,102.855 sky130_fd_pr__nfet_01v8
+XM$373 \$237 A[4] A[5]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $374 r0 *1 73.01,103.03 sky130_fd_pr__nfet_01v8
+XM$374 A[5] \$221
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $375 r0 *1 74.37,103.03 sky130_fd_pr__nfet_01v8
+XM$375 \$221 \$237
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $376 r0 *1 75.73,93.895 sky130_fd_pr__nfet_01v8
+XM$376 \$186 \$156 \$198
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $377 r0 *1 75.73,102.855 sky130_fd_pr__nfet_01v8
+XM$377 \$237 \$220 \$230
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $378 r0 *1 77.09,93.895 sky130_fd_pr__nfet_01v8
+XM$378 \$185 \$156 \$199
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $379 r0 *1 77.09,102.855 sky130_fd_pr__nfet_01v8
+XM$379 \$238 \$220 \$223
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $380 r0 *1 78.45,103.03 sky130_fd_pr__nfet_01v8
+XM$380 \$223 \$230
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $381 r0 *1 79.81,103.03 sky130_fd_pr__nfet_01v8
+XM$381 \$230 \$238
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $382 r0 *1 81.17,93.895 sky130_fd_pr__nfet_01v8
+XM$382 A[2] A[1] \$199
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $383 r0 *1 81.17,102.855 sky130_fd_pr__nfet_01v8
+XM$383 \$238 A[4] A[5]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $384 r0 *1 82.53,103.03 sky130_fd_pr__nfet_01v8
+XM$384 \$220 A[4]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $385 r0 *1 83.89,103.03 sky130_fd_pr__nfet_01v8
+XM$385 \$224 A[4]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $386 r0 *1 85.25,93.895 sky130_fd_pr__nfet_01v8
+XM$386 A[3] A[2] \$200
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $387 r0 *1 85.25,102.855 sky130_fd_pr__nfet_01v8
+XM$387 \$239 A[3] A[4]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $388 r0 *1 86.61,103.03 sky130_fd_pr__nfet_01v8
+XM$388 A[4] \$226
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $389 r0 *1 87.97,103.03 sky130_fd_pr__nfet_01v8
+XM$389 \$226 \$239
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $390 r0 *1 89.33,102.855 sky130_fd_pr__nfet_01v8
+XM$390 \$239 \$225 \$231
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $391 r0 *1 89.33,93.895 sky130_fd_pr__nfet_01v8
+XM$391 \$190 \$167 \$200
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $392 r0 *1 90.69,102.855 sky130_fd_pr__nfet_01v8
+XM$392 \$240 \$225 \$227
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $393 r0 *1 90.69,93.895 sky130_fd_pr__nfet_01v8
+XM$393 \$189 \$167 \$201
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $394 r0 *1 92.05,103.03 sky130_fd_pr__nfet_01v8
+XM$394 \$227 \$231
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $395 r0 *1 93.41,103.03 sky130_fd_pr__nfet_01v8
+XM$395 \$231 \$240
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $396 r0 *1 94.77,93.895 sky130_fd_pr__nfet_01v8
+XM$396 A[3] A[2] \$201
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $397 r0 *1 94.77,102.855 sky130_fd_pr__nfet_01v8
+XM$397 \$240 A[3] A[4]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $398 r0 *1 96.13,103.03 sky130_fd_pr__nfet_01v8
+XM$398 \$225 A[3]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $399 r0 *1 43.09,105.86 sky130_fd_pr__nfet_01v8
+XM$399
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ A[7] \$281
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $400 r0 *1 44.45,106.035 sky130_fd_pr__nfet_01v8
+XM$400 A[8] A[7] \$302
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $401 r0 *1 45.81,105.86 sky130_fd_pr__nfet_01v8
+XM$401
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$302 \$285
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $402 r0 *1 47.17,105.86 sky130_fd_pr__nfet_01v8
+XM$402
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$285 \$286
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $403 r0 *1 48.53,106.035 sky130_fd_pr__nfet_01v8
+XM$403 \$286 \$281 \$302
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $404 r0 *1 49.89,106.035 sky130_fd_pr__nfet_01v8
+XM$404 \$285 \$281 \$303
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $405 r0 *1 51.25,105.86 sky130_fd_pr__nfet_01v8
+XM$405
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$303 \$287
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $406 r0 *1 52.61,105.86 sky130_fd_pr__nfet_01v8
+XM$406
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$287 A[8]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $407 r0 *1 53.97,106.035 sky130_fd_pr__nfet_01v8
+XM$407 A[8] A[7] \$303
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $408 r0 *1 55.33,105.86 sky130_fd_pr__nfet_01v8
+XM$408
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ A[8] \$288
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $409 r0 *1 56.69,105.86 sky130_fd_pr__nfet_01v8
+XM$409
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ A[8] \$282
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $410 r0 *1 58.05,106.035 sky130_fd_pr__nfet_01v8
+XM$410 A[9] A[8] \$304
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $411 r0 *1 59.41,105.86 sky130_fd_pr__nfet_01v8
+XM$411
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$304 \$289
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $412 r0 *1 60.77,105.86 sky130_fd_pr__nfet_01v8
+XM$412
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$289 \$290
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $413 r0 *1 62.13,106.035 sky130_fd_pr__nfet_01v8
+XM$413 \$290 \$282 \$304
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $414 r0 *1 63.49,106.035 sky130_fd_pr__nfet_01v8
+XM$414 \$289 \$282 \$305
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $415 r0 *1 64.85,105.86 sky130_fd_pr__nfet_01v8
+XM$415
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$305 \$291
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $416 r0 *1 66.21,105.86 sky130_fd_pr__nfet_01v8
+XM$416
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$291 A[9]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $417 r0 *1 67.57,106.035 sky130_fd_pr__nfet_01v8
+XM$417 A[9] A[8] \$305
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $418 r0 *1 68.93,105.86 sky130_fd_pr__nfet_01v8
+XM$418
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ A[9] \$292
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $419 r0 *1 70.29,105.86 sky130_fd_pr__nfet_01v8
+XM$419
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ A[9] \$283
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $420 r0 *1 71.65,106.035 sky130_fd_pr__nfet_01v8
+XM$420 A[10] A[9] \$306
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $421 r0 *1 73.01,105.86 sky130_fd_pr__nfet_01v8
+XM$421
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$306 \$293
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $422 r0 *1 74.37,105.86 sky130_fd_pr__nfet_01v8
+XM$422
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$293 \$294
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $423 r0 *1 75.73,106.035 sky130_fd_pr__nfet_01v8
+XM$423 \$294 \$283 \$306
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $424 r0 *1 77.09,106.035 sky130_fd_pr__nfet_01v8
+XM$424 \$293 \$283 \$307
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $425 r0 *1 78.45,105.86 sky130_fd_pr__nfet_01v8
+XM$425
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$307 \$295
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $426 r0 *1 79.81,105.86 sky130_fd_pr__nfet_01v8
+XM$426
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$295 A[10]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $427 r0 *1 81.17,106.035 sky130_fd_pr__nfet_01v8
+XM$427 A[10] A[9] \$307
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $428 r0 *1 82.53,105.86 sky130_fd_pr__nfet_01v8
+XM$428
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ A[10] \$296
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $429 r0 *1 83.89,105.86 sky130_fd_pr__nfet_01v8
+XM$429
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ A[10] \$284
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $430 r0 *1 85.25,106.035 sky130_fd_pr__nfet_01v8
+XM$430 OUT A[10] \$308
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $431 r0 *1 86.61,105.86 sky130_fd_pr__nfet_01v8
+XM$431
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$308 \$297
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $432 r0 *1 87.97,105.86 sky130_fd_pr__nfet_01v8
+XM$432
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$297 \$298
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $433 r0 *1 89.33,106.035 sky130_fd_pr__nfet_01v8
+XM$433 \$298 \$284 \$308
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $434 r0 *1 90.69,106.035 sky130_fd_pr__nfet_01v8
+XM$434 \$297 \$284 \$309
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $435 r0 *1 92.05,105.86 sky130_fd_pr__nfet_01v8
+XM$435
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$309 \$299
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $436 r0 *1 93.41,105.86 sky130_fd_pr__nfet_01v8
+XM$436
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$299 OUT
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $437 r0 *1 94.77,106.035 sky130_fd_pr__nfet_01v8
+XM$437 OUT A[10] \$309
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=650000 AS=195000000000 AD=195000000000
++ PS=1900000 PD=1900000
+* device instance $438 r0 *1 96.13,105.86 sky130_fd_pr__nfet_01v8
+XM$438
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ OUT \$301
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8 L=150000 W=1000000 AS=300000000000 AD=300000000000
++ PS=2600000 PD=2600000
+* device instance $439 r0 *1 60.765,67.705 sky130_fd_pr__nfet_01v8_lvt
+XM$439 \$27 \$25
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=4200000 AS=1.533e+12 AD=1.533e+12
++ PS=7760000 PD=7760000
+* device instance $441 r0 *1 73.73,67.705 sky130_fd_pr__nfet_01v8_lvt
+XM$441 \$17 DUT_Header|ua[3]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=42000000 AS=1.4385e+13 AD=1.4385e+13
++ PS=76700000 PD=76700000
+* device instance $461 r0 *1 99.74,67.705 sky130_fd_pr__nfet_01v8_lvt
+XM$461 \$25 \$26 \$17
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=4200000 AS=1.533e+12 AD=1.533e+12
++ PS=7760000 PD=7760000
+* device instance $463 r0 *1 111.495,67.705 sky130_fd_pr__nfet_01v8_lvt
+XM$463 \$21 RO|ui_in[0]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=42000000 AS=1.4385e+13 AD=1.4385e+13
++ PS=76700000 PD=76700000
+* device instance $483 r0 *1 137.505,67.705 sky130_fd_pr__nfet_01v8_lvt
+XM$483 \$26 \$100 \$21
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=4200000 AS=1.533e+12 AD=1.533e+12
++ PS=7760000 PD=7760000
+* device instance $485 r0 *1 27.635,67.225 sky130_fd_pr__nfet_01v8_lvt
+XM$485 \$23 RON|ui_in[1] \$27
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $486 r0 *1 30.405,67.225 sky130_fd_pr__nfet_01v8_lvt
+XM$486
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ RON|ui_in[1] \$27
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $487 r0 *1 33.9,89.395 sky130_fd_pr__nfet_01v8_lvt
+XM$487 IN|OUT \$27
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=4200000 AS=1.3335e+12 AD=1.3335e+12
++ PS=7570000 PD=7570000
+* device instance $489 r0 *1 38.48,89.875 sky130_fd_pr__nfet_01v8_lvt
+XM$489 IN|OUT
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$75
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $490 r0 *1 41.27,89.875 sky130_fd_pr__nfet_01v8_lvt
+XM$490 IN|OUT
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$76
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $491 r0 *1 44.8,89.395 sky130_fd_pr__nfet_01v8_lvt
+XM$491 \$65 IN|OUT
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=4200000 AS=1.3335e+12 AD=1.3335e+12
++ PS=7570000 PD=7570000
+* device instance $493 r0 *1 49.38,89.875 sky130_fd_pr__nfet_01v8_lvt
+XM$493 \$65
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$77
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $494 r0 *1 52.17,89.875 sky130_fd_pr__nfet_01v8_lvt
+XM$494 \$65
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$78
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $495 r0 *1 55.7,89.395 sky130_fd_pr__nfet_01v8_lvt
+XM$495 \$79 \$65
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=4200000 AS=1.3335e+12 AD=1.3335e+12
++ PS=7570000 PD=7570000
+* device instance $497 r0 *1 60.28,89.875 sky130_fd_pr__nfet_01v8_lvt
+XM$497 \$79
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$80
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $498 r0 *1 63.07,89.875 sky130_fd_pr__nfet_01v8_lvt
+XM$498 \$79
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$81
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $499 r0 *1 66.6,89.395 sky130_fd_pr__nfet_01v8_lvt
+XM$499 \$82 \$79
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=4200000 AS=1.3335e+12 AD=1.3335e+12
++ PS=7570000 PD=7570000
+* device instance $501 r0 *1 66.61,67.21 sky130_fd_pr__nfet_01v8_lvt
+XM$501 \$25 RON|ui_in[1] Drain_Sense|ua[5]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=420000 AS=126000000000 AD=126000000000
++ PS=1440000 PD=1440000
+* device instance $502 r0 *1 69.38,67.21 sky130_fd_pr__nfet_01v8_lvt
+XM$502 \$25 RON|ui_in[1] Drain_Force|ua[4]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=420000 AS=126000000000 AD=126000000000
++ PS=1440000 PD=1440000
+* device instance $503 r0 *1 71.18,89.875 sky130_fd_pr__nfet_01v8_lvt
+XM$503 \$82
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$83
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $504 r0 *1 73.97,89.875 sky130_fd_pr__nfet_01v8_lvt
+XM$504 \$82
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$84
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $505 r0 *1 77.5,89.395 sky130_fd_pr__nfet_01v8_lvt
+XM$505 \$85 \$82
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=4200000 AS=1.3335e+12 AD=1.3335e+12
++ PS=7570000 PD=7570000
+* device instance $507 r0 *1 82.08,89.875 sky130_fd_pr__nfet_01v8_lvt
+XM$507 \$85
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$86
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $508 r0 *1 84.87,89.875 sky130_fd_pr__nfet_01v8_lvt
+XM$508 \$85
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$87
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $509 r0 *1 88.4,89.395 sky130_fd_pr__nfet_01v8_lvt
+XM$509 \$88 \$85
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=4200000 AS=1.3335e+12 AD=1.3335e+12
++ PS=7570000 PD=7570000
+* device instance $511 r0 *1 92.98,89.875 sky130_fd_pr__nfet_01v8_lvt
+XM$511 \$88
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$89
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $512 r0 *1 95.77,89.875 sky130_fd_pr__nfet_01v8_lvt
+XM$512 \$88
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$90
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $513 r0 *1 99.3,89.395 sky130_fd_pr__nfet_01v8_lvt
+XM$513 \$91 \$88
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=4200000 AS=1.3335e+12 AD=1.3335e+12
++ PS=7570000 PD=7570000
+* device instance $515 r0 *1 103.88,89.875 sky130_fd_pr__nfet_01v8_lvt
+XM$515 \$91
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$92
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $516 r0 *1 104.375,67.225 sky130_fd_pr__nfet_01v8_lvt
+XM$516 \$24 RON|ui_in[1] \$26
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $517 r0 *1 106.67,89.875 sky130_fd_pr__nfet_01v8_lvt
+XM$517 \$91
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$93
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $518 r0 *1 107.145,67.225 sky130_fd_pr__nfet_01v8_lvt
+XM$518 DUT_Gate|ua[1] RON|ui_in[1] \$26
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $519 r0 *1 110.2,89.395 sky130_fd_pr__nfet_01v8_lvt
+XM$519 \$94 \$91
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=4200000 AS=1.3335e+12 AD=1.3335e+12
++ PS=7570000 PD=7570000
+* device instance $521 r0 *1 114.78,89.875 sky130_fd_pr__nfet_01v8_lvt
+XM$521 \$94
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$95
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $522 r0 *1 117.57,89.875 sky130_fd_pr__nfet_01v8_lvt
+XM$522 \$94
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$96
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $523 r0 *1 121.1,89.395 sky130_fd_pr__nfet_01v8_lvt
+XM$523 \$97 \$94
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=4200000 AS=1.3335e+12 AD=1.3335e+12
++ PS=7570000 PD=7570000
+* device instance $525 r0 *1 125.68,89.875 sky130_fd_pr__nfet_01v8_lvt
+XM$525 \$97
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$98
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $526 r0 *1 128.47,89.875 sky130_fd_pr__nfet_01v8_lvt
+XM$526 \$97
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$99
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $527 r0 *1 132,89.395 sky130_fd_pr__nfet_01v8_lvt
+XM$527 \$100 \$97
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=4200000 AS=1.3335e+12 AD=1.3335e+12
++ PS=7570000 PD=7570000
+* device instance $529 r0 *1 136.58,89.875 sky130_fd_pr__nfet_01v8_lvt
+XM$529 \$100
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$101
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+* device instance $530 r0 *1 139.37,89.875 sky130_fd_pr__nfet_01v8_lvt
+XM$530 \$100
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ \$102
++ GND|VGND|uio_oe[0]|uio_oe[1]|uio_oe[2]|uio_oe[3]|uio_oe[4]|uio_oe[5]|uio_oe[6]|uio_oe[7]|uio_out[0]|uio_out[1]|uio_out[2]|uio_out[3]|uio_out[4]|uio_out[5]|uio_out[6]|uio_out[7]|uo_out[0]|uo_out[1]|uo_out[2]|uo_out[3]|uo_out[4]|uo_out[5]|uo_out[6]|uo_out[7]
++ sky130_fd_pr__nfet_01v8_lvt L=350000 W=450000 AS=135000000000 AD=135000000000
++ PS=1500000 PD=1500000
+.ENDS tt_um_RO_aging

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <report-database>
  <description>SKY130 DRC runset</description>
- <original-file>/foss/designs/SKY130A/tt_um_Onchip_Ring_Oscillators_Aging/gds/tt_um_RO_aging_flat.gds</original-file>
+ <original-file>/foss/designs/SKY130A/tt_um_Onchip_Ring_Oscillators_Aging/gds/tt_um_RO_aging.gds</original-file>
  <generator>drc: script='/foss/pdks/sky130A/libs.tech/klayout/macros/run_drc_full.lydrc'</generator>
  <top-cell>tt_um_RO_aging</top-cell>
  <tags>
