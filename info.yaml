@@ -25,8 +25,8 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "Ro control"
-  ui[1]: "Not Ro control"
+  ui[0]: "Ro_control"
+  ui[1]: "Not_Ro_control"
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""

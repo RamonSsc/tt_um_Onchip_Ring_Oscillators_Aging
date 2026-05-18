@@ -28,7 +28,9 @@ module tt_um_RO_aging(
         .DUT_Footer(ua[2]),
         .DUT_Header(ua[3]),
         .Drain_Sense(ua[4]),
-        .Drain_Force(ua[5])
+        .Drain_Force(ua[5]),
+        .Ro_control(ui_in[0]),
+        .Not_Ro_control(ui_in[1])
     );
 
 
@@ -60,6 +62,9 @@ module tt_um_RO_aging(
     assign uio_oe[5] = VGND;
     assign uio_oe[6] = VGND;
     assign uio_oe[7] = VGND;
+
+    / List all unused inputs to prevent warnings
+    wire _unused = &{ena, clk, rst_n, uio_in[7:0], ui_in[7:2], 1'b0};
 
 
 endmodule
