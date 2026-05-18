@@ -63,7 +63,7 @@ module tt_um_RO_aging(
     assign uio_oe[6] = VGND;
     assign uio_oe[7] = VGND;
 
-    / List all unused inputs to prevent warnings
+    // List all unused inputs to prevent warnings
     wire _unused = &{ena, clk, rst_n, uio_in[7:0], ui_in[7:2], 1'b0};
 
 
