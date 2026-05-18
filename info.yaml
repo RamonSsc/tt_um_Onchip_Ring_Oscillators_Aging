@@ -1,7 +1,7 @@
 # Tiny Tapeout project information
 project:
   title:        "Onchip-UIS Ro_Aging"      # Project title
-  author:       "Ramon and Jorge and Jeison"      # Your name
+  author:       "Ramon Sarmiento and Jorge Angarita and Jeison Acevedo"      # Your name
   discord:      "zhord0326"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Ro for Aging analysis"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
