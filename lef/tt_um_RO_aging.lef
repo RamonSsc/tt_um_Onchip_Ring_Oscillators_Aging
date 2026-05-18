@@ -26,6 +26,8 @@ MACRO tt_um_RO_aging
     END
   END rst_n
   PIN ua[0]
+    ANTENNAGATEAREA 0.450000 ;
+    ANTENNADIFFAREA 1.890000 ;
     PORT
       LAYER met4 ;
         RECT 151.810 0.000 152.710 1.000 ;
